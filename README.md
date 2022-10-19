@@ -8,6 +8,6 @@
   - Gestão Estratégica de Negócios
   - Plano de Acompanhamento de Carreira em Sistemas de Informação V
   - Projeto Integrador de Competências em Sistemas de Informação V
-  - Sistemas Cliente/Servidor
+  - Sistemas Cliente/Servidor (Ide utilizada: Eclipse)
   - EAD - 12 - DEZ - Gerência de Configuração
 
