@@ -1,0 +1,43 @@
+<!--  Esse context vai ser usado fazendo a referencia para o name na hora que for ser criado os nossos arquivos -->
+<Context>
+<!-- 
+
+	name -> nome do resource. Esse name é para referenciar quando for criar a 
+	classe datautil
+
+	auth -> quem vai autenticar no Tomcat
+	
+	Type -> o tipo dele
+	
+	da para colocar mais coisa, por exemplo numero de conexoes ativas, processos, tempo de espera
+	caminho, driver, usuario
+	
+	maxActive -> tempo de ativiaçao
+	maxIdle -> tempo de inatividade
+	maxWait -> tempo de espera
+	
+	username="root" -> depende de como que a pessoa configurou o workbranch o nome de user e a senha
+	password="admin"
+	
+	driverClassName-> qual banco iremos usar
+	
+	jdbc-> é uma ponte(driver em java) que faz da aplicaçao em si com o banco de dados especifico que voce esta usando. Ou seja -> front - back(api) - jdbc - banco de dados
+ 
+ 
+ 	url -> qual banco de dados iremos usar
+ -->
+	<Resource 
+		name="jdbc/DbStudent"
+		auth="Container"
+		type="javax.sql.DataSource"
+		maxActive="20"
+		maxIdle="5"
+		maxWait="10000"
+		username="root"
+		password="admin"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/dbstudent?useSSL=false&amp;serverTimezone=UTC" 
+	>
+	</Resource>
+
+</Context>
