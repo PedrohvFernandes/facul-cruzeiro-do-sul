@@ -1,0 +1,38 @@
+<!-- Todos os direcionamentos -->
+<!-- https://spring.io/ -->
+<!-- http://www.springframework.org/schema/ 
+https://spring.io/blog/2009/11/17/spring-3-type-conversion-and-validation/
+
+-->
+<beans 
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/mvc
+		 http://www.springframework.org/schema/mvc/spring-mvc.xsd ">
+
+	<!-- Qual o pacote a onde sera tudo criado, objetos das classes-->
+	<context:component-scan
+		base-package="com.cruzeiro" />
+	
+	<mvc:annotation-driven />	
+		
+
+	<!-- Configuration defining views files -->
+	<!-- Todas as paginas que nao sejam dos controles nos vamos utilizar a parte do jsp dentro da view a onde vai ficar as nossas paginas -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/view/">
+			<value>/WEB-INF/view/</value>
+		</property>
+		<property name="suffix" value=".jsp">
+			<value>.jsp</value>
+		</property>
+	</bean>
+</beans>
