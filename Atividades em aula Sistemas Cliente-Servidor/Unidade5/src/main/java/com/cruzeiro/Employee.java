@@ -1,6 +1,10 @@
 package com.cruzeiro;
 
 import java.util.LinkedHashMap;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 // suposto mapeamento de tabela
 public class Employee {
