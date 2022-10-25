@@ -1,0 +1,27 @@
+<hibernate-configuration>
+	<session-factory>
+		<!-- JDBC Database connection setting -->
+		<!-- Qual sgbd usar -->
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<!-- parametros para conectar com o banco -->
+		<!-- root@localhost:3306 / jdbc:mysql://localhost:3306/?user=root   /  jdbc:mysql://localhost:3306/dbstudent?useSSL=false&amp;serverTimezone=UTC-->
+		<property name="connection.url">jdbc:mysql://localhost:3306/dbstudent?useSSL=false&amp;serverTimezone=UTC</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">admin</property>
+		
+		<!-- JDBC connection pool settings ... using built-in test pool -->
+		<property name="connection.pool_size">1</property>
+		
+		<!-- Select our SQL dialect, ele vai entender ou pra entender os comandos ou pra utilizaçao do mysqç -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		
+		<!-- Mostrar a instruçao sql que ele esta montando -->
+		<property name="hibernate.show_sql">true</property>
+		
+		<!--  -->
+		<property name ="current_session_context_class">thread</property >
+	
+	</session-factory>
+
+
+</hibernate-configuration>
