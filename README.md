@@ -19,12 +19,20 @@
   - Diversidade Étnico-Cultural
   - Auditoria de Sistemas
   - CONHECIMENTOS GERAIS – 2023
-  - Felicidade e Qualidade de Vida
+  - Felicidade e Qualidade de Vida - 2023
 
-  ### 8 periodo EAD: 🕗
+  ### 8 periodo EAD: ✔️
   - Big data
   - Redes Neurais
-  - Projeto Integrador Transdisciplinar em Sistemas de Informação II
+  - Projeto Integrador Transdisciplinar em Sistemas de Informação II [Link do projeto](https://github.com/PedrohvFernandes/cupcakes)
   - Ciencia de dados
-  - Conhecimento gerais
-  - Felicidade e Qualidade de vida
+  - Conhecimento gerais - 2023 2 semestre
+  - Felicidade e Qualidade de vida - 2023 2 semestre
+
+  ### Periodos restante EAD para complementar a grade deles: 🕗 - 9
+  - Aplicações Para Internet
+  - Engenharia de Software Baseada em Componentes
+  - Matematica financeira
+  - Logica computacional
+  - Plano de Acompanhamento de Carreira em Ciência de Dados
+  - Língua Brasileira de Sinais
