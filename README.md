@@ -29,10 +29,9 @@
   - Conhecimento gerais - 2023 2 semestre
   - Felicidade e Qualidade de vida - 2023 2 semestre
 
-  ### Periodos restante EAD para complementar a grade deles: 🕗 - 9
+  ### Periodos restante EAD para complementar a grade deles: ✔️ - 9
   - Aplicações Para Internet
-  - Engenharia de Software Baseada em Componentes
-  - Matematica financeira
   - Logica computacional
   - Plano de Acompanhamento de Carreira em Ciência de Dados
   - Língua Brasileira de Sinais
+  - Sistemas integrados de gestão
