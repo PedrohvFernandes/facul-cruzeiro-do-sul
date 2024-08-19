@@ -35,3 +35,11 @@
   - Plano de Acompanhamento de Carreira em Ciência de Dados
   - Língua Brasileira de Sinais
   - Sistemas integrados de gestão
+
+  ### Periodos restante EAD para complementar a grade deles: ⏱️ - 10
+  - Fundamentos da Administração
+  - Técnicas de Programação
+  - Gestão da Tecnologia da Informação
+  - Modelagem de Dados
+  - Mineração de Dados
+  - Desenvolvimento Ágil
